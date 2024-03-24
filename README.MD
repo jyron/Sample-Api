@@ -4,7 +4,7 @@
 The objective of this project is to develop a backend API and a basic frontend interface to display product information. The backend will be responsible for handling product data and exposing endpoints to retrieve product information. The frontend will interact with the backend API to display products and provide basic search functionality.
 
 ### Technologies
-- Backend: Node.js, Express.js
+- Backend: Python, Fastapi
 - Frontend: HTML, CSS, JavaScript
 
 ## Backend Requirements
