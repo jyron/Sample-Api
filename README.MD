@@ -43,9 +43,37 @@ The objective of this project is to develop a backend API and a basic frontend i
 
 ## Folder Structure
 
+### Current File Structure
 - main.py: FastAPI app entrypoint.
 - crud.py: CRUD operations for interacting with the database.
 - models.py: Pydantic models for database schema and request/response payloads.
 - routers.py: API routers for handling requests.
 - data.json: Sample data for products.
 - tests_*: Unit test files for routers, crud, etc.
+
+### Proposed File Structure
+If this were a real-world application, the file structure could be organized as follows:
+
+- app/
+    - main.py: Uvicorn server entry point.
+    - models/: Define your database models here.
+        - product.py
+        - user.py
+    - crud/: CRUD operations for interacting with the database.
+        - product.py
+        - user.py
+    - routers/: Routers seperated by model use case.
+        - product.py
+    - schemas/: Pydantic models for request/response payloads.
+        - product.py
+    - tests/: Write your test suites here.
+        - test_routers.py
+        - test_crud.py
+    - utils/: Utility functions and helper modules.
+        - error_handling.py
+        - current_user.py
+    - config/
+        - settings.py
+        - .env
+    - requirements.txt
+    - README.md
