@@ -21,3 +21,31 @@ The objective of this project is to develop a backend API and a basic frontend i
 - Display a list of products retrieved from the backend API on the main page.
 - Implement a simple search functionality to filter products by name or category.
 - Create a product detail page that shows the details of a selected product, fetched from the backend API.
+
+## Usage
+
+### Backend
+0. Make and actiavte a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+1. Install the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. Run the FastAPI application:
+    ```bash
+    uvicorn main:app --reload
+    ```
+3. Access the API documentation at `http://localhost:8000/docs` to test the API endpoints.
+
+
+## Folder Structure
+
+- main.py: FastAPI app entrypoint.
+- crud.py: CRUD operations for interacting with the database.
+- models.py: Pydantic models for database schema and request/response payloads.
+- routers.py: API routers for handling requests.
+- data.json: Sample data for products.
+- tests_*: Unit test files for routers, crud, etc.

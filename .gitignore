@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Compiled files
+*.pyc
+*.class
+
+# Build directories
+build/
+dist/

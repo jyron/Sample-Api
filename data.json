@@ -1,0 +1,60 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "The Grandiose Timepiece",
+        "description": "An extravagant and opulent watch fit for royalty.",
+        "category": "Luxury Watches",
+        "price": 9999.99
+      },
+      {
+        "id": 2,
+        "name": "The Blingmaster 3000",
+        "description": "A flashy watch adorned with diamonds and gold accents.",
+        "category": "Luxury Watches",
+        "price": 14999.99
+      },
+      {
+        "id": 3,
+        "name": "The Platinum Prestige Chronometer",
+        "description": "A premium timepiece crafted from rare platinum materials.",
+        "category": "Luxury Watches",
+        "price": 19999.99
+      },
+      {
+        "id": 4,
+        "name": "The Extravagant Elegance Watch",
+        "description": "An exquisitely designed watch that exudes sophistication.",
+        "category": "Luxury Watches",
+        "price": 24999.99
+      },
+      {
+        "id": 5,
+        "name": "The Budget Breezer",
+        "description": "A simple yet functional watch at an affordable price.",
+        "category": "Budget Watches",
+        "price": 29.99
+      },
+      {
+        "id": 6,
+        "name": "The Pocket Pennywatch",
+        "description": "A charming pocket watch that won't break the bank.",
+        "category": "Budget Watches",
+        "price": 19.99
+      },
+      {
+        "id": 7,
+        "name": "The Casual Companion",
+        "description": "A casual wristwatch perfect for everyday wear.",
+        "category": "Budget Watches",
+        "price": 39.99
+      },
+      {
+        "id": 8,
+        "name": "The Timekeeper Classic",
+        "description": "A timeless classic watch design at an affordable price.",
+        "category": "Budget Watches",
+        "price": 49.99
+      }
+    ]
+  }
