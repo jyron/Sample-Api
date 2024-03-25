@@ -25,7 +25,7 @@ The objective of this project is to develop a backend API and a basic frontend i
 ## Usage
 
 ### Backend
-0. Make and actiavte a virtual environment:
+0. Make and activate a virtual environment:
     ```bash
     python -m venv venv
     source venv/bin/activate
