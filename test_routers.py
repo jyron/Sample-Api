@@ -1,10 +1,12 @@
 """Test Router Functions."""
 
+from typing import Dict, List
+
 from fastapi.testclient import TestClient
-from typing import List, Dict
+
+from crud import get_all_products, get_product_by_id
 from main import app
 from models import Product
-from crud import get_all_products, get_product_by_id
 
 client = TestClient(app=app)
 

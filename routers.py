@@ -1,5 +1,7 @@
 from typing import List, Optional
+
 from fastapi import APIRouter, HTTPException
+
 from crud import get_all_products, get_product_by_id
 from models import Product
 
