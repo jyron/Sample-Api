@@ -40,6 +40,18 @@ The objective of this project is to develop a backend API and a basic frontend i
     ```
 3. Access the API documentation at `http://localhost:8000/docs` to test the API endpoints.
 
+### Frontend
+TBD
+
+## Testing
+### Backend Tests
+Go to project root and run the following command:
+```bash
+pytest
+```
+### Frontend Tests
+TBD
+
 
 ## Folder Structure
 
