@@ -22,5 +22,6 @@ def test_get_product():
     product = Product(**response.json())
     assert response.status_code == 200
     assert isinstance(response.json(), dict)
-    for key in Product.model_fields.keys():
-        assert hasattr(product, key)
+    bad_response = client.get("/products/100")
+    assert bad_response.status_code == 404
+    assert bad_response.json() == {"detail": "Product not found"}
